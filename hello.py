@@ -21,3 +21,5 @@ def fib(n):
             a = a + b
             b = a + b
             i = i + 1
+
+print("1")
