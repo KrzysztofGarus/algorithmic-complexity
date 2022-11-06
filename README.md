@@ -73,6 +73,15 @@ plt.title("Good Fibonacci")
 plt.xlabel("Length of list (number)")
 plt.ylabel("Time taken (seconds)")
 plt.show()
+
+
+plt.plot(gxv, gyv, "-b", label="good fib")
+plt.plot(bxv, byv, "-r", label="bad fib")
+plt.title("Comparison")
+plt.xlabel("Length of list (number)")
+plt.ylabel("Time taken (seconds)")
+plt.legend(loc="upper left")
+plt.show()
 ```
 ![bad_fib](https://user-images.githubusercontent.com/117105005/200169869-79fff1a3-65d2-40b0-9954-81bb74e84028.png)
 ![good_fib](https://user-images.githubusercontent.com/117105005/200169870-c4aac18b-d8c1-488a-ab9e-d7daec090b57.png)
