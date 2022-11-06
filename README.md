@@ -26,27 +26,44 @@ def fib_good(n):
             b = a + b
             i = i + 1
     return fibs
-    
+
+def fib_bad(n):
+    if n < 0:
+        print("bad input")
+    elif n == 0:
+        return 0
+    elif n == 1 or n == 2:
+        return 1
+    return fib_bad(n-1) + fib_bad(n-2)
+
 from timeit import default_timer as timer
 
-def calculate_time(n):
+def calculate_time_good(n):
     start = timer()
     fib_good(n)
     end = timer()
     return end - start
+
+def calculate_time_bad(n):
+    start = timer()
+    fib_bad(n)
+    end = timer()
+    return end - start
     
 # good fib values
-xv = list(range(1, 10000))
-yv = []
+gxv = list(range(1, 10000))
+gyv = []
 for x in range(1, 10000):
-    yv.append(calculate_time(x))
+    gyv.append(calculate_time_good(x))
     
-    
-import matplotlib.pyplot as plt
-import numpy as np
+# bad fib values
 
-plt.plot(xv, yv)
-plt.show()
+bxv = list(range(1, 36))
+byv = []
+for x in range(1, 36):
+    byv.append(calculate_time_bad(x))
 
 ```
 ![pobrane](https://user-images.githubusercontent.com/117105005/200168081-236ecdc2-4989-4bfc-87b9-dac833b15102.png)
+![good_fib](https://user-images.githubusercontent.com/117105005/200168907-c99d131e-e656-4d5a-9a50-9ecc74f1a019.png)
+
