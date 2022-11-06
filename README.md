@@ -7,6 +7,8 @@ b = 1
 i = 0
 fibs = []
 
+# FAST FIB
+
 def fib_good(n):
     global a
     global b
@@ -26,6 +28,8 @@ def fib_good(n):
             b = a + b
             i = i + 1
     return fibs
+
+# SLOW FIB
 
 def fib_bad(n):
     if n < 0:
