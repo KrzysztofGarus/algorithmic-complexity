@@ -76,4 +76,5 @@ plt.show()
 ```
 ![bad_fib](https://user-images.githubusercontent.com/117105005/200169869-79fff1a3-65d2-40b0-9954-81bb74e84028.png)
 ![good_fib](https://user-images.githubusercontent.com/117105005/200169870-c4aac18b-d8c1-488a-ab9e-d7daec090b57.png)
+![comparison_fib](https://user-images.githubusercontent.com/117105005/200170575-f54528b0-c622-4378-9ed4-f2293eed4a19.png)
 
