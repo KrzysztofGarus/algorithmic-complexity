@@ -64,6 +64,7 @@ for x in range(1, 36):
     byv.append(calculate_time_bad(x))
 
 ```
-![pobrane](https://user-images.githubusercontent.com/117105005/200168081-236ecdc2-4989-4bfc-87b9-dac833b15102.png)
+
 ![good_fib](https://user-images.githubusercontent.com/117105005/200168907-c99d131e-e656-4d5a-9a50-9ecc74f1a019.png)
+![bad_fib](https://user-images.githubusercontent.com/117105005/200168965-51d218cb-16fe-47f4-be36-d9995b3b257f.png)
 
