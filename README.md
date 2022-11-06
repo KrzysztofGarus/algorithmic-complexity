@@ -48,5 +48,7 @@ import numpy as np
 plt.plot(xv, yv)
 plt.show()
 
+![pobrane](https://user-images.githubusercontent.com/117105005/200167992-12896fc5-3a94-439a-94a8-1057607ca3d3.png)
+
 
 ```
