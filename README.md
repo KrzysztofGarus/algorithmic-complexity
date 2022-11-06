@@ -60,10 +60,20 @@ for x in range(1, 36):
     
 import matplotlib.pyplot as plt
 import numpy as np
+
+
 plt.plot(bxv, byv)
+plt.title("Bad Fibonacci")
+plt.xlabel("Length of list (number)")
+plt.ylabel("Time taken (seconds)")
 plt.show()
+
 plt.plot(gxv, gyv)
+plt.title("Good Fibonacci")
+plt.xlabel("Length of list (number)")
+plt.ylabel("Time taken (seconds)")
 plt.show()
 ```
-![good_fib](https://user-images.githubusercontent.com/117105005/200168907-c99d131e-e656-4d5a-9a50-9ecc74f1a019.png)
-![bad_fib](https://user-images.githubusercontent.com/117105005/200168965-51d218cb-16fe-47f4-be36-d9995b3b257f.png)
+![bad_fib](https://user-images.githubusercontent.com/117105005/200169869-79fff1a3-65d2-40b0-9954-81bb74e84028.png)
+![good_fib](https://user-images.githubusercontent.com/117105005/200169870-c4aac18b-d8c1-488a-ab9e-d7daec090b57.png)
+
