@@ -5,9 +5,9 @@ Comparing various computational complexities
 a = 1
 b = 1
 i = 0
-fibs = [0]
+fibs = []
 
-def fib(n):
+def fib_good(n):
     global a
     global b
     global i
@@ -25,6 +25,28 @@ def fib(n):
             a = a + b
             b = a + b
             i = i + 1
+    return fibs
+    
+from timeit import default_timer as timer
+
+def calculate_time(n):
+    start = timer()
+    fib_good(n)
+    end = timer()
+    return end - start
+    
+# good fib values
+xv = list(range(1, 10000))
+yv = []
+for x in range(1, 10000):
+    yv.append(calculate_time(x))
+    
+    
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.plot(xv, yv)
+plt.show()
 
 
 ```
