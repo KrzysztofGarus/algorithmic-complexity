@@ -62,6 +62,15 @@ bxv = list(range(1, 36))
 byv = []
 for x in range(1, 36):
     byv.append(calculate_time_bad(x))
+    
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.plot(bxv, byv)
+plt.show()
+
+plt.plot(gxv, gyv)
+plt.show()
 
 ```
 
