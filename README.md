@@ -5,9 +5,9 @@ Comparing various computational complexities
 a = 1
 b = 1
 i = 0
-fibs = [0]
+fibs = []
 
-def fib(n):
+def fib_good(n):
     global a
     global b
     global i
@@ -25,7 +25,6 @@ def fib(n):
             a = a + b
             b = a + b
             i = i + 1
-![pobrane](https://user-images.githubusercontent.com/117105005/200167992-12896fc5-3a94-439a-94a8-1057607ca3d3.png)
 
 
 ```
