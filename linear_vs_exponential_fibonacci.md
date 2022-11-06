@@ -1,5 +1,5 @@
 # algorithmic-complexity
-Comparing the computational complexity of two methods for creating numbers from the fibonacci sequence
+Comparing the computational complexity of two methods (linear and exponential) for creating numbers from the fibonacci sequence
 ```py
 a = 1
 b = 1
