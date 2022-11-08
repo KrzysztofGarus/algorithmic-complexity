@@ -48,5 +48,12 @@ def binary_find(x):
             end = mid - 1
     return mid
 ```
-Poniżej porównanie działania obu sposobów wyszukiwania
+
+Poniżej porównanie działania obu sposobów wyszukiwania na przykładnie wyszukiwania liczby 37
+
 ![binary-and-linear-search-animations](https://user-images.githubusercontent.com/117105005/200673713-efe3199d-058d-4389-9ca5-7986ac0d7683.gif)
+
+Porównajmy czasy wyszukiwania - wykres przedstawia ilość czasu potrzebną do znalezienia szukanej liczby dla liczb w zakresie od 1 do 100000
+Test został wykonany na kompuerze z ryzenem 5900x, 32gb ram, 2tb ssd - w przypadku wykonania testu na słabszym sprzęcie czas wyszukiwania linearnego byłby dużo większy i bardziej zauważalny dla użytkownika
+
+![binary_linear](https://user-images.githubusercontent.com/117105005/200679487-1dd239f8-6999-49bd-8825-ea5d62841f25.png)
