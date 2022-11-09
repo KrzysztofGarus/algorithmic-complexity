@@ -55,5 +55,7 @@ def calculate_time_prime_test(n):
     end = timer()
     return end - start
 ```
+Wyniki porównania przedstawiają się następująco
+
 ![sito](https://user-images.githubusercontent.com/117105005/200861342-8348e0aa-f9a8-45c1-98d6-b505cb794f87.png)
 
