@@ -11,7 +11,8 @@ Poniżej graficzne przedstawienie działania sita
 
 ![Sieve_of_Eratosthenes](https://user-images.githubusercontent.com/117105005/200827157-bddbd6cc-cd19-4070-9c5a-a670f484640c.gif)
 
-Czas na implementację sita w pythonie:
+Czas na implementację sita w pythonie.
+Poniższy kod zwraca liczby pierwsze do końca podanego zakresu - n
 
 ```py
 import math
@@ -30,3 +31,29 @@ def erat2(n):
          if primes[i]: result.append(i) 
     return result
 ```
+
+Poniżej funkcja sprawdzacjąca, czy dana liczba jest pierwsza. Sprawdza czy dana liczba jest podzielna przez wszystkie liczby z zakresu 2 do połowy liczby
+```py
+def prime_test(a):
+    if a == 1:
+        return True
+    if a == 2:
+        return True
+    for i in range(2, a // 2):
+        if a % i == 0:
+            return False
+    return True
+```
+
+Aby porównać czas działania obu algorytmów musiałem dodać pętlę, która uruchamia algorytm dla wszystkich liczb z zakresu 2 do n
+
+```py
+def calculate_time_prime_test(n):
+    start = timer()
+    for a in range(2, n):
+        prime_test(a)
+    end = timer()
+    return end - start
+```
+![sito](https://user-images.githubusercontent.com/117105005/200861342-8348e0aa-f9a8-45c1-98d6-b505cb794f87.png)
+
