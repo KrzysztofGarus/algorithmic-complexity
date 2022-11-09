@@ -59,3 +59,10 @@ Wyniki porównania przedstawiają się następująco
 
 ![sito](https://user-images.githubusercontent.com/117105005/200861342-8348e0aa-f9a8-45c1-98d6-b505cb794f87.png)
 
+Przykładowo dla sprawdzenia liczb z zakresu 2..10000 sito potrzebuje niecałą milisekundę natomiast zwykły test potrzebuje około 140 razy więcej czasu :D
+Ktoś może pomyśleć, że to spora różnica... a co powiesz na to, że dla zakresu 2..100000 sito potrzebuje 10 ms czyli proporcjonalnie 10 razy dłużej niż wcześniej a zwykły test 10.5 sekundy? To już jest ponad 1000 razy wolniej :(
+
+W takim razie chyba już ustaliliśmy co wybierzesz następnym razem do wyszukiwania liczb pierwszych ;)
+![choose](https://user-images.githubusercontent.com/117105005/200867019-40617537-1618-4cae-86ff-24b3228d2c88.jpg)
+
+
