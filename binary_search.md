@@ -49,7 +49,7 @@ def binary_find(x):
     return mid
 ```
 
-Poniżej porównanie działania obu sposobów wyszukiwania na przykładnie wyszukiwania liczby 37
+Poniżej porównanie działania obu sposobów wyszukiwania na przykładzie wyszukiwania liczby 37
 
 ![binary-and-linear-search-animations](https://user-images.githubusercontent.com/117105005/200673713-efe3199d-058d-4389-9ca5-7986ac0d7683.gif)
 
